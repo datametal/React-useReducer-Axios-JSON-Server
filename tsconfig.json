@@ -26,6 +26,13 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["src", "./jest.setup.ts", "./jest.config.ts", "./vite.config.ts"],
+  "include": [
+    "src",
+    "./jest.setup.ts",
+    "./jest.config.ts",
+    "./vite.config.ts",
+    "src/__tests__/__mocks__/fileMock.ts"
+  ],
+  "exclude": ["src/__tests__/__mocks__/fileMock.js"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

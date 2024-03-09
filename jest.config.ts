@@ -12,3 +12,4 @@ export default {
 
   setupFilesAfterEnv: ['<rootDir>/jest.setup.ts'],
 }
+npm install cypress --save-dev
