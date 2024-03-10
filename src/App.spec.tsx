@@ -2,7 +2,11 @@ import '@testing-library/jest-dom'
 import { render, screen } from '@testing-library/react'
 import App from './App'
 
-it('renders hello message', () => {
+// eslint-disable-next-line react/display-name
+jest.mock('./components/InventoryList', () => () => (
+  <div data-testid='item-list' />
+))
+it('Renders App', () => {
   render(<App />)
-  expect(screen.getByText('Vite + React')).toBeInTheDocument()
+  expect(screen.getByTestId('item-list')).toBeInTheDocument()
 })
