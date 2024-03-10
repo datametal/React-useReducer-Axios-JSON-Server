@@ -25,9 +25,12 @@
     "release": "standard-version --no-verify",
     "release:minor": "standard-version --release-as minor",
     "release:patch": "standard-version --release-as patch",
-    "release:major": "standard-version --release-as major"
+    "release:major": "standard-version --release-as major",
+    "start-server": "json-server --watch ./src/server/database/data.json"
   },
   "dependencies": {
+    "axios": "1.6.7",
+    "json-server": "1.0.0-alpha.23",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
