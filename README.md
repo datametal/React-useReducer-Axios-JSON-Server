@@ -1,5 +1,7 @@
 # React + TypeScript + Vite
 
+[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/datametal/React-useReducer-Axios-JSON-Server/badge)](https://securityscorecards.dev/viewer/?uri=github.com/datametal/React-useReducer-Axios-JSON-Server)
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
