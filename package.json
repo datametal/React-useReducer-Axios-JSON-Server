@@ -35,6 +35,7 @@
     "@commitlint/cli": "19.0.3",
     "@commitlint/config-conventional": "19.0.3",
     "@commitlint/cz-commitlint": "19.0.3",
+    "@commitlint/types": "19.0.3",
     "@storybook/addon-essentials": "7.6.17",
     "@storybook/addon-interactions": "7.6.17",
     "@storybook/addon-links": "7.6.17",
